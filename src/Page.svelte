@@ -1,5 +1,5 @@
 <script>
-  let BACKEND_URL = ''; // put your backend endpoint here
+  let BACKEND_URL = ''; //https://bigwinn.onrender.com
   let name = 'bell';
   let email = '';
   let password = '';
